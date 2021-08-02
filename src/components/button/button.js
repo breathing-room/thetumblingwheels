@@ -1,5 +1,5 @@
 import React from 'react'
-import buttonStyles from './button.module.scss'
+import * as buttonStyles from './button.module.scss'
 import { FaSpotify } from 'react-icons/fa'
 import { FiInstagram, FiFacebook } from 'react-icons/fi'
 

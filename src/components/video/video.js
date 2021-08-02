@@ -1,5 +1,5 @@
 import React from 'react';
-import videoStyles from './video.module.scss'
+import * as videoStyles from './video.module.scss'
 
 const Video = ({ video }) => {
     return (

@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from '../components/layout'
 import VideoData from '../assets/data/videos'
 import Video from '../components/video'
-import videosStyles from './videos.module.scss'
+import * as videosStyles from './videos.module.scss'
 
 const VideosPage = () => {
     return (

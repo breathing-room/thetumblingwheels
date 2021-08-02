@@ -1,5 +1,5 @@
 import React from 'react';
-import layoutStyles from './layout.module.scss'
+import * as layoutStyles from './layout.module.scss'
 import Nav from '../nav';
 
 const Layout = ({ children }) => {

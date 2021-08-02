@@ -13,24 +13,14 @@ module.exports = {
   plugins: [
     `gatsby-plugin-sass`,
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          {
-            family: 'Jacques Francois Shadow' 
-          },
-          {
-            family: 'Cardo'
-          },
-          {
-            family: 'PT Serif'
-          },
-          {
-            family: 'Merriweather'
-          },
-          {
-            family: 'Inter'
-          }
+          'Jacques Francois Shadow',
+          'Cardo',
+          'PT Serif',
+          'Merriweather',
+          'Inter',
         ]
       }
     },

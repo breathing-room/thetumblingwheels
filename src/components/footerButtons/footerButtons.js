@@ -1,6 +1,6 @@
 import React from 'react'
 import Button from '../button'
-import footerButtonsStyles from './footerButtons.module.scss'
+import * as footerButtonsStyles from './footerButtons.module.scss'
 
 const FooterButtons = () => {
   return (
