@@ -14,20 +14,17 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
-    "gatsby": "^3.10.2",
-    "gatsby-plugin-google-analytics": "^3.10.0",
+    "gatsby": "^5.16.1",
     "gatsby-plugin-google-fonts": "^1.0.1",
-    "gatsby-plugin-manifest": "^3.10.0",
-    "gatsby-plugin-material-ui": "^3.0.1",
-    "gatsby-plugin-sass": "^4.10.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-icons": "^4.2.0",
-    "sass": "^1.37.0",
-    "yarn": "^1.22.4"
+    "gatsby-plugin-google-gtag": "^5.16.0",
+    "gatsby-plugin-sass": "^6.16.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.5.0",
+    "sass": "^1.85.0"
   },
   "devDependencies": {
-    "prettier": "^2.3.2"
+    "prettier": "^3.5.3"
   },
   "repository": {
     "type": "git",
@@ -35,5 +32,11 @@
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "resolutions": {
+    "cross-spawn": "^7.0.5",
+    "minimatch": "^3.1.4",
+    "svgo": "^2.8.1",
+    "flatted": "^3.4.2"
   }
 }
