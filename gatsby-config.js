@@ -13,18 +13,6 @@ module.exports = {
   plugins: [
     `gatsby-plugin-sass`,
     {
-      resolve: `gatsby-plugin-google-fonts`,
-      options: {
-        fonts: [
-          'Jacques Francois Shadow',
-          'Cardo',
-          'PT Serif',
-          'Merriweather',
-          'Inter',
-        ]
-      }
-    },
-    {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
         trackingIds: ["UA-78794744-1"],
